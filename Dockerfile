@@ -147,4 +147,3 @@ EOF
 
 RUN chmod +x ${PKG_BIN_PATH}/build.sh \
   && ${PKG_BIN_PATH}/build.sh
-
