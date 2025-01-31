@@ -35,8 +35,8 @@ typealias IOBox = Box<IOBoxValue>
 public final class AVIOContext {
   var native: UnsafeMutablePointer<CAVIOContext>!
   var opaque: IOBox?
-  var owned = false
-  var isOpen = false
+  var owned: Bool = false
+  var isOpen: Bool = false
 
   init(native: UnsafeMutablePointer<CAVIOContext>) {
     self.native = native
