@@ -128,7 +128,7 @@ extension SwsContext {
   ///
   public struct Flag: OptionSet {
     /// Select fast bilinear scaling algorithm.
-      public static let fastBilinear = Flag(rawValue: Int32(SWS_FAST_BILINEAR.rawValue))
+    public static let fastBilinear = Flag(rawValue: Int32(SWS_FAST_BILINEAR.rawValue))
     /// Select bilinear scaling algorithm.
     public static let bilinear = Flag(rawValue: Int32(SWS_BILINEAR.rawValue))
     /// Select bicubic scaling algorithm.
